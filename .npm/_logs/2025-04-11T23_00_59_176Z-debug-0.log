@@ -1,0 +1,332 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.11.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/pakistan-raid/YukiBot/discord-js-bot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm i ejs
+8 verbose argv "i" "ejs"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-04-11T23_00_59_176Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-04-11T23_00_59_176Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest ejs@*
+16 silly packumentCache full:https://registry.npmjs.org/ejs cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/ejs 383ms (cache updated)
+18 silly packumentCache full:https://registry.npmjs.org/ejs set size:undefined disposed:false
+19 silly placeDep ROOT ejs@3.1.10 OK for: seu-bot-topzera@1.0.0 want: *
+20 silly fetch manifest jake@^10.8.5
+21 silly packumentCache full:https://registry.npmjs.org/jake cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/jake 64ms (cache updated)
+23 silly packumentCache full:https://registry.npmjs.org/jake set size:undefined disposed:false
+24 silly placeDep ROOT jake@10.9.2 OK for: ejs@3.1.10 want: ^10.8.5
+25 silly fetch manifest async@^3.2.3
+26 silly packumentCache full:https://registry.npmjs.org/async cache-miss
+27 silly fetch manifest chalk@^4.0.2
+28 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+29 silly fetch manifest filelist@^1.0.4
+30 silly packumentCache full:https://registry.npmjs.org/filelist cache-miss
+31 silly fetch manifest minimatch@^3.1.2
+32 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/minimatch 95ms (cache updated)
+34 silly packumentCache full:https://registry.npmjs.org/minimatch set size:undefined disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/filelist 146ms (cache updated)
+36 silly packumentCache full:https://registry.npmjs.org/filelist set size:undefined disposed:false
+37 http fetch GET 200 https://registry.npmjs.org/chalk 153ms (cache updated)
+38 silly packumentCache full:https://registry.npmjs.org/chalk set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/async 163ms (cache updated)
+40 silly packumentCache full:https://registry.npmjs.org/async set size:undefined disposed:false
+41 silly placeDep ROOT async@3.2.6 OK for: jake@10.9.2 want: ^3.2.3
+42 silly placeDep ROOT chalk@4.1.2 OK for: jake@10.9.2 want: ^4.0.2
+43 silly placeDep ROOT filelist@1.0.4 OK for: jake@10.9.2 want: ^1.0.4
+44 silly placeDep ROOT minimatch@3.1.2 OK for: jake@10.9.2 want: ^3.1.2
+45 silly fetch manifest supports-color@^7.1.0
+46 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+47 silly fetch manifest minimatch@^5.0.1
+48 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+49 silly fetch manifest brace-expansion@^1.1.7
+50 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+51 http cache https://registry.npmjs.org/minimatch 29ms (cache hit)
+52 silly packumentCache full:https://registry.npmjs.org/minimatch set size:398328 disposed:false
+53 http fetch GET 200 https://registry.npmjs.org/brace-expansion 76ms (cache updated)
+54 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:undefined disposed:false
+55 http fetch GET 200 https://registry.npmjs.org/supports-color 82ms (cache updated)
+56 silly packumentCache full:https://registry.npmjs.org/supports-color set size:undefined disposed:false
+57 silly placeDep ROOT supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+58 silly fetch manifest has-flag@^4.0.0
+59 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/has-flag 86ms (cache updated)
+61 silly packumentCache full:https://registry.npmjs.org/has-flag set size:undefined disposed:false
+62 silly placeDep node_modules/filelist minimatch@5.1.6 OK for: filelist@1.0.4 want: ^5.0.1
+63 silly fetch manifest brace-expansion@^2.0.1
+64 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+65 http cache https://registry.npmjs.org/brace-expansion 6ms (cache hit)
+66 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:42345 disposed:false
+67 silly placeDep ROOT brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+68 silly fetch manifest balanced-match@^1.0.0
+69 silly packumentCache full:https://registry.npmjs.org/balanced-match cache-miss
+70 silly fetch manifest concat-map@0.0.1
+71 silly packumentCache full:https://registry.npmjs.org/concat-map cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/concat-map 63ms (cache updated)
+73 silly packumentCache full:https://registry.npmjs.org/concat-map set size:undefined disposed:false
+74 http fetch GET 200 https://registry.npmjs.org/balanced-match 69ms (cache updated)
+75 silly packumentCache full:https://registry.npmjs.org/balanced-match set size:undefined disposed:false
+76 silly placeDep ROOT balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+77 silly placeDep ROOT concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+78 silly placeDep ROOT has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+79 silly placeDep node_modules/filelist brace-expansion@2.0.1 OK for: minimatch@5.1.6 want: ^2.0.1
+80 silly reify moves {}
+81 silly audit bulk request {
+81 silly audit   '@discordjs/builders': [ '1.10.1', '0.16.0' ],
+81 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1', '0.7.0' ],
+81 silly audit   '@discordjs/formatters': [ '0.6.0' ],
+81 silly audit   '@discordjs/rest': [ '2.4.3' ],
+81 silly audit   '@discordjs/util': [ '1.1.1' ],
+81 silly audit   '@discordjs/ws': [ '1.2.1' ],
+81 silly audit   '@effect/data': [ '0.17.6' ],
+81 silly audit   '@effect/schema': [ '0.49.4' ],
+81 silly audit   '@lavaclient/queue': [ '2.1.1' ],
+81 silly audit   '@lavaclient/spotify': [ '3.1.0' ],
+81 silly audit   '@lavaclient/types': [ '2.1.1' ],
+81 silly audit   '@mongodb-js/saslprep': [ '1.2.2' ],
+81 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+81 silly audit   '@sapphire/shapeshift': [ '4.0.0', '3.9.7' ],
+81 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+81 silly audit   '@sourcebin/linguist': [ '0.0.3' ],
+81 silly audit   '@types/http-errors': [ '1.8.2' ],
+81 silly audit   '@types/node': [ '22.14.1' ],
+81 silly audit   '@types/node-fetch': [ '2.6.12' ],
+81 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+81 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+81 silly audit   '@types/ws': [ '8.18.1' ],
+81 silly audit   '@vitalets/google-translate-api': [ '9.2.1' ],
+81 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.6' ],
+81 silly audit   accepts: [ '2.0.0' ],
+81 silly audit   'mime-db': [ '1.54.0', '1.52.0' ],
+81 silly audit   'mime-types': [ '3.0.1', '2.1.35' ],
+81 silly audit   ajv: [ '8.17.1' ],
+81 silly audit   'ansi-regex': [ '5.0.1' ],
+81 silly audit   'ansi-styles': [ '4.3.0' ],
+81 silly audit   'asn1.js': [ '5.4.1' ],
+81 silly audit   'astral-regex': [ '2.0.0' ],
+81 silly audit   asynckit: [ '0.4.0' ],
+81 silly audit   'atomic-sleep': [ '1.0.0' ],
+81 silly audit   'bn.js': [ '4.12.1' ],
+81 silly audit   'body-parser': [ '2.2.0' ],
+81 silly audit   bson: [ '6.10.3' ],
+81 silly audit   btoa: [ '1.2.1' ],
+81 silly audit   bytes: [ '3.1.2' ],
+81 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+81 silly audit   'call-bound': [ '1.0.4' ],
+81 silly audit   'color-convert': [ '2.0.1' ],
+81 silly audit   'color-name': [ '1.1.4' ],
+81 silly audit   colorette: [ '2.0.20' ],
+81 silly audit   'combined-stream': [ '1.0.8' ],
+81 silly audit   'common-tags': [ '1.8.2' ],
+81 silly audit   'connect-mongo': [ '5.1.0' ],
+81 silly audit   'content-disposition': [ '1.0.0' ],
+81 silly audit   'content-type': [ '1.0.5' ],
+81 silly audit   cookie: [ '0.7.2' ],
+81 silly audit   'cookie-signature': [ '1.2.2', '1.0.7' ],
+81 silly audit   'country-emoji-languages': [ '1.0.1' ],
+81 silly audit   dateformat: [ '4.6.3' ],
+81 silly audit   debug: [ '4.4.0', '2.6.9' ],
+81 silly audit   'deepmerge-ts': [ '4.3.0' ],
+81 silly audit   'delayed-stream': [ '1.0.0' ],
+81 silly audit   depd: [ '2.0.0' ],
+81 silly audit   'discord-api-types': [ '0.37.120', '0.36.3', '0.33.5' ],
+81 silly audit   'discord-giveaways': [ '6.0.1' ],
+81 silly audit   'discord-together': [ '1.3.31' ],
+81 silly audit   'discord.js': [ '14.18.0', '13.17.1' ],
+81 silly audit   dotenv: [ '16.5.0' ],
+81 silly audit   'dunder-proto': [ '1.0.1' ],
+81 silly audit   'ee-first': [ '1.1.1' ],
+81 silly audit   effect: [ '2.0.0-next.56' ],
+81 silly audit   'emoji-regex': [ '8.0.0' ],
+81 silly audit   encodeurl: [ '2.0.0' ],
+81 silly audit   'end-of-stream': [ '1.4.4' ],
+81 silly audit   'enhanced-ms': [ '4.1.0' ],
+81 silly audit   'es-define-property': [ '1.0.1' ],
+81 silly audit   'es-errors': [ '1.3.0' ],
+81 silly audit   'es-object-atoms': [ '1.1.1' ],
+81 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+81 silly audit   'escape-html': [ '1.0.3' ],
+81 silly audit   etag: [ '1.8.1' ],
+81 silly audit   express: [ '5.1.0' ],
+81 silly audit   'express-session': [ '1.18.1' ],
+81 silly audit   ms: [ '2.0.0', '2.1.3' ],
+81 silly audit   'fast-check': [ '3.23.2' ],
+81 silly audit   'fast-copy': [ '3.0.2' ],
+81 silly audit   'fast-deep-equal': [ '3.1.3' ],
+81 silly audit   'fast-redact': [ '3.5.0' ],
+81 silly audit   'fast-safe-stringify': [ '2.1.1' ],
+81 silly audit   'fast-uri': [ '3.0.6' ],
+81 silly audit   finalhandler: [ '2.1.0' ],
+81 silly audit   'fixedsize-map': [ '1.1.0' ],
+81 silly audit   'form-data': [ '4.0.2' ],
+81 silly audit   forwarded: [ '0.2.0' ],
+81 silly audit   fresh: [ '2.0.0' ],
+81 silly audit   'function-bind': [ '1.1.2' ],
+81 silly audit   'get-intrinsic': [ '1.3.0' ],
+81 silly audit   'get-proto': [ '1.0.1' ],
+81 silly audit   gopd: [ '1.2.0' ],
+81 silly audit   'has-symbols': [ '1.1.0' ],
+81 silly audit   'has-tostringtag': [ '1.0.2' ],
+81 silly audit   hasown: [ '2.0.2' ],
+81 silly audit   'help-me': [ '5.0.0' ],
+81 silly audit   'http-errors': [ '2.0.0' ],
+81 silly audit   'iconv-lite': [ '0.6.3' ],
+81 silly audit   inherits: [ '2.0.4' ],
+81 silly audit   'ipaddr.js': [ '1.9.1' ],
+81 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+81 silly audit   'is-promise': [ '4.0.0' ],
+81 silly audit   'iso-639-1': [ '3.1.5' ],
+81 silly audit   joycon: [ '3.1.1' ],
+81 silly audit   'json-schema-traverse': [ '1.0.0' ],
+81 silly audit   kareem: [ '2.6.3' ],
+81 silly audit   kruptein: [ '3.0.7' ],
+81 silly audit   lavaclient: [ '5.0.0-rc.3' ],
+81 silly audit   'lavalink-api-client': [ '1.0.1' ],
+81 silly audit   'lavalink-protocol': [ '1.0.2' ],
+81 silly audit   'lavalink-ws-client': [ '1.0.1' ],
+81 silly audit   lodash: [ '4.17.21' ],
+81 silly audit   'lodash.snakecase': [ '4.1.1' ],
+81 silly audit   'lodash.truncate': [ '4.4.2' ],
+81 silly audit   'magic-bytes.js': [ '1.10.0' ],
+81 silly audit   'math-intrinsics': [ '1.1.0' ],
+81 silly audit   'media-typer': [ '1.1.0' ],
+81 silly audit   'memory-pager': [ '1.5.0' ],
+81 silly audit   'merge-descriptors': [ '2.0.0' ],
+81 silly audit   'minimalistic-assert': [ '1.0.1' ],
+81 silly audit   minimist: [ '1.2.8' ],
+81 silly audit   'module-alias': [ '2.2.3' ],
+81 silly audit   moment: [ '2.30.1' ],
+81 silly audit   mongodb: [ '6.15.0' ],
+81 silly audit   'mongodb-connection-string-url': [ '3.0.2' ],
+81 silly audit   tr46: [ '5.1.0', '0.0.3' ],
+81 silly audit   'webidl-conversions': [ '7.0.0', '3.0.1' ],
+81 silly audit   'whatwg-url': [ '14.2.0', '5.0.0' ],
+81 silly audit   mongoose: [ '8.13.2' ],
+81 silly audit   mpath: [ '0.9.0' ],
+81 silly audit   mquery: [ '5.0.0' ],
+81 silly audit   negotiator: [ '1.0.0' ],
+81 silly audit   'nekos.life': [ '3.0.0' ],
+81 silly audit   'node-fetch': [ '2.7.0' ],
+81 silly audit   'object-inspect': [ '1.13.4' ],
+81 silly audit   'on-exit-leak-free': [ '2.1.2' ],
+81 silly audit   'on-finished': [ '2.4.1' ],
+81 silly audit   'on-headers': [ '1.0.2' ],
+81 silly audit   once: [ '1.4.0' ],
+81 silly audit   'parse-ms': [ '4.0.0' ],
+81 silly audit   parseurl: [ '1.3.3' ],
+81 silly audit   'path-to-regexp': [ '8.2.0' ],
+81 silly audit   pino: [ '9.6.0' ],
+81 silly audit   'pino-abstract-transport': [ '2.0.0' ],
+81 silly audit   'pino-pretty': [ '13.0.0' ],
+81 silly audit   'pino-std-serializers': [ '7.0.0' ],
+81 silly audit   'pretty-ms': [ '9.2.0' ],
+81 silly audit   'process-warning': [ '4.0.1' ],
+81 silly audit   'proxy-addr': [ '2.0.7' ],
+81 silly audit   pump: [ '3.0.2' ],
+81 silly audit   punycode: [ '2.3.1' ],
+81 silly audit   'pure-rand': [ '6.1.0' ],
+81 silly audit   qs: [ '6.14.0' ],
+81 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+81 silly audit   'random-bytes': [ '1.0.0' ],
+81 silly audit   randombytes: [ '2.1.0' ],
+81 silly audit   'range-parser': [ '1.2.1' ],
+81 silly audit   'raw-body': [ '3.0.0' ],
+81 silly audit   'real-require': [ '0.2.0' ],
+81 silly audit   'require-from-string': [ '2.0.2' ],
+81 silly audit   router: [ '2.2.0' ],
+81 silly audit   rxjs: [ '7.8.2' ],
+81 silly audit   'safe-buffer': [ '5.2.1' ],
+81 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+81 silly audit   'safer-buffer': [ '2.1.2' ],
+81 silly audit   'secure-json-parse': [ '2.7.0' ],
+81 silly audit   send: [ '1.2.0' ],
+81 silly audit   'serialize-javascript': [ '6.0.2' ],
+81 silly audit   'serve-static': [ '2.2.0' ],
+81 silly audit   setprototypeof: [ '1.2.0' ],
+81 silly audit   'side-channel': [ '1.1.0' ],
+81 silly audit   'side-channel-list': [ '1.0.0' ],
+81 silly audit   'side-channel-map': [ '1.0.1' ],
+81 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+81 silly audit   sift: [ '17.1.3' ],
+81 silly audit   'slice-ansi': [ '4.0.0' ],
+81 silly audit   snakecord: [ '1.0.9' ],
+81 silly audit   'sonic-boom': [ '4.2.0' ],
+81 silly audit   sourcebin_js: [ '0.0.3-ignore' ],
+81 silly audit   'sparse-bitfield': [ '3.0.3' ],
+81 silly audit   split2: [ '4.2.0' ],
+81 silly audit   statuses: [ '2.0.1' ],
+81 silly audit   'string-progressbar': [ '1.0.4' ],
+81 silly audit   'string-width': [ '4.2.3' ],
+81 silly audit   'strip-ansi': [ '6.0.1' ],
+81 silly audit   'strip-json-comments': [ '3.1.1' ],
+81 silly audit   table: [ '6.9.0' ],
+81 silly audit   'thread-stream': [ '3.1.0' ],
+81 silly audit   'timestamp-to-date': [ '1.1.0' ],
+81 silly audit   'tiny-typed-emitter': [ '2.1.0' ],
+81 silly audit   toidentifier: [ '1.0.1' ],
+81 silly audit   'ts-mixer': [ '6.0.4' ],
+81 silly audit   tslib: [ '2.8.1' ],
+81 silly audit   'twemoji-parser': [ '14.0.0' ],
+81 silly audit   'type-is': [ '2.0.1' ],
+81 silly audit   'typed-emitter': [ '2.1.0' ],
+81 silly audit   'uid-safe': [ '2.1.5' ],
+81 silly audit   undici: [ '6.21.1' ],
+81 silly audit   'undici-types': [ '6.21.0' ],
+81 silly audit   unpipe: [ '1.0.0' ],
+81 silly audit   vary: [ '1.1.2' ],
+81 silly audit   wrappy: [ '1.0.2' ],
+81 silly audit   ws: [ '8.18.1' ],
+81 silly audit   ejs: [ '3.1.10' ],
+81 silly audit   jake: [ '10.9.2' ],
+81 silly audit   async: [ '3.2.6' ],
+81 silly audit   chalk: [ '4.1.2' ],
+81 silly audit   filelist: [ '1.0.4' ],
+81 silly audit   minimatch: [ '3.1.2', '5.1.6' ],
+81 silly audit   'supports-color': [ '7.2.0' ],
+81 silly audit   'brace-expansion': [ '1.1.11', '2.0.1' ],
+81 silly audit   'balanced-match': [ '1.0.2' ],
+81 silly audit   'concat-map': [ '0.0.1' ],
+81 silly audit   'has-flag': [ '4.0.0' ]
+81 silly audit }
+82 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+83 http cache concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 0ms (cache hit)
+84 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 0ms (cache hit)
+85 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz 0ms (cache hit)
+86 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz 0ms (cache hit)
+87 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+88 http cache filelist@https://registry.npmjs.org/filelist/-/filelist-1.0.4.tgz 0ms (cache hit)
+89 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+90 http cache async@https://registry.npmjs.org/async/-/async-3.2.6.tgz 0ms (cache hit)
+91 http cache jake@https://registry.npmjs.org/jake/-/jake-10.9.2.tgz 0ms (cache hit)
+92 http cache ejs@https://registry.npmjs.org/ejs/-/ejs-3.1.10.tgz 0ms (cache hit)
+93 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz 0ms (cache hit)
+94 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-5.1.6.tgz 0ms (cache hit)
+95 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 257ms
+96 silly audit report {}
+97 silly ADD node_modules/has-flag
+98 silly ADD node_modules/concat-map
+99 silly ADD node_modules/balanced-match
+100 silly ADD node_modules/brace-expansion
+101 silly ADD node_modules/supports-color
+102 silly ADD node_modules/minimatch
+103 silly ADD node_modules/filelist
+104 silly ADD node_modules/filelist/node_modules/brace-expansion
+105 silly ADD node_modules/filelist/node_modules/minimatch
+106 silly ADD node_modules/chalk
+107 silly ADD node_modules/async
+108 silly ADD node_modules/jake
+109 silly ADD node_modules/ejs
+110 verbose cwd /data/data/com.termux/files/home/pakistan-raid/YukiBot/discord-js-bot
+111 verbose os Linux 4.19.191-perf-g83a4fd2b1ed4
+112 verbose node v23.11.0
+113 verbose npm  v10.9.2
+114 verbose exit 0
+115 info ok

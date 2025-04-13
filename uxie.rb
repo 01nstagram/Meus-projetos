@@ -1,0 +1,1 @@
+puts "Uxie é gay"

@@ -1,0 +1,272 @@
+[
+  {
+    "name": "afk",
+    "description": "ativa modo afk com motivo",
+    "syntax": "/afk <motivo>",
+    "examples": ["/afk fui cagar", "/afk aula"]
+  },
+  {
+    "name": "autolock",
+    "description": "tranca canais automaticamente",
+    "syntax": "/autolock",
+    "examples": ["/autolock"]
+  },
+  {
+    "name": "backup",
+    "description": "faz backup do servidor",
+    "syntax": "/backup",
+    "examples": ["/backup"]
+  },
+  {
+    "name": "ban",
+    "description": "bane um usuário",
+    "syntax": "/ban <@user> [motivo]",
+    "examples": ["/ban @muleke spam"]
+  },
+  {
+    "name": "baninfo",
+    "description": "mostra info de ban de um user",
+    "syntax": "/baninfo <@user>",
+    "examples": ["/baninfo @otario"]
+  },
+  {
+    "name": "beijo",
+    "description": "manda um beijo pra alguém",
+    "syntax": "/beijo <@user>",
+    "examples": ["/beijo @crush"]
+  },
+  {
+    "name": "bypass",
+    "description": "tenta burlar sistemas",
+    "syntax": "/bypass <target>",
+    "examples": ["/bypass cloudflare.com"]
+  },
+  {
+    "name": "clear",
+    "description": "limpa mensagens do chat",
+    "syntax": "/clear <quantidade>",
+    "examples": ["/clear 50"]
+  },
+  {
+    "name": "creapypasta",
+    "description": "envia uma creepypasta aleatória",
+    "syntax": "/creapypasta",
+    "examples": ["/creapypasta"]
+  },
+  {
+    "name": "decripty",
+    "description": "descriptografa algo",
+    "syntax": "/decripty <hash>",
+    "examples": ["/decripty 123abc"]
+  },
+  {
+    "name": "denunciar",
+    "description": "denuncia um usuário",
+    "syntax": "/denunciar <@user> <motivo>",
+    "examples": ["/denunciar @boy assédio"]
+  },
+  {
+    "name": "dm",
+    "description": "manda msg direta",
+    "syntax": "/dm <@user> <mensagem>",
+    "examples": ["/dm @boy fala comigo"]
+  },
+  {
+    "name": "encripty",
+    "description": "criptografa texto",
+    "syntax": "/encripty <texto>",
+    "examples": ["/encripty pak1stan"]
+  },
+  {
+    "name": "fakeban",
+    "description": "faz ban fake só pra zoar",
+    "syntax": "/fakeban <@user>",
+    "examples": ["/fakeban @pivete"]
+  },
+  {
+    "name": "getbio",
+    "description": "pega a bio do user",
+    "syntax": "/getbio <@user>",
+    "examples": ["/getbio @menino"]
+  },
+  {
+    "name": "grabber",
+    "description": "pega infos do usuário",
+    "syntax": "/grabber <@user>",
+    "examples": ["/grabber @qualquerum"]
+  },
+  {
+    "name": "hashid",
+    "description": "detecta tipo de hash",
+    "syntax": "/hashid <hash>",
+    "examples": ["/hashid 21232f297a57a5a743894a0e4a801fc3"]
+  },
+  {
+    "name": "help",
+    "description": "mostra essa porra aqui",
+    "syntax": "/help",
+    "examples": ["/help"]
+  },
+  {
+    "name": "ip",
+    "description": "mostra info de um IP",
+    "syntax": "/ip <ip>",
+    "examples": ["/ip 8.8.8.8"]
+  },
+  {
+    "name": "lock",
+    "description": "tranca o canal atual",
+    "syntax": "/lock",
+    "examples": ["/lock"]
+  },
+  {
+    "name": "lockall",
+    "description": "tranca todos os canais",
+    "syntax": "/lockall",
+    "examples": ["/lockall"]
+  },
+  {
+    "name": "mcip",
+    "description": "pega info de servidor minecraft",
+    "syntax": "/mcip <ip>",
+    "examples": ["/mcip hypixel.net"]
+  },
+  {
+    "name": "molestar",
+    "description": "molesta um user (zoeira)",
+    "syntax": "/molestar <@user>",
+    "examples": ["/molestar @boy gostoso"]
+  },
+  {
+    "name": "moverinf",
+    "description": "move canal pra baixo",
+    "syntax": "/moverinf",
+    "examples": ["/moverinf"]
+  },
+  {
+    "name": "nuker",
+    "description": "nukeia o server (modo demoníaco)",
+    "syntax": "/nuker",
+    "examples": ["/nuker"]
+  },
+  {
+    "name": "painel",
+    "description": "abre painel de config",
+    "syntax": "/painel",
+    "examples": ["/painel"]
+  },
+  {
+    "name": "palavras",
+    "description": "bloqueia palavras específicas",
+    "syntax": "/palavras <palavra>",
+    "examples": ["/palavras pornografia"]
+  },
+  {
+    "name": "pinger",
+    "description": "fica pingando site ou ip",
+    "syntax": "/pinger <host>",
+    "examples": ["/pinger google.com"]
+  },
+  {
+    "name": "qualprefixo",
+    "description": "mostra o prefixo atual",
+    "syntax": "/qualprefixo",
+    "examples": ["/qualprefixo"]
+  },
+  {
+    "name": "raid",
+    "description": "começa um ataque de raid",
+    "syntax": "/raid",
+    "examples": ["/raid"]
+  },
+  {
+    "name": "say",
+    "description": "fala o que vc mandar",
+    "syntax": "/say <mensagem>",
+    "examples": ["/say sou gay"]
+  },
+  {
+    "name": "scaninvite",
+    "description": "verifica convite do discord",
+    "syntax": "/scaninvite <convite>",
+    "examples": ["/scaninvite discord.gg/abc"]
+  },
+  {
+    "name": "screenshot",
+    "description": "printa um site",
+    "syntax": "/screenshot <url>",
+    "examples": ["/screenshot https://site.com"]
+  },
+  {
+    "name": "serverinfo",
+    "description": "mostra info do server",
+    "syntax": "/serverinfo",
+    "examples": ["/serverinfo"]
+  },
+  {
+    "name": "setall",
+    "description": "altera todos os canais",
+    "syntax": "/setall <nome>",
+    "examples": ["/setall pakistan hunters"]
+  },
+  {
+    "name": "setprefixo",
+    "description": "muda o prefixo do bot",
+    "syntax": "/setprefixo <novo>",
+    "examples": ["/setprefixo !"]
+  },
+  {
+    "name": "topgay",
+    "description": "ranking dos mais gay",
+    "syntax": "/topgay",
+    "examples": ["/topgay"]
+  },
+  {
+    "name": "transar",
+    "description": "transa com alguém (zoeira)",
+    "syntax": "/transar <@user>",
+    "examples": ["/transar @namorada"]
+  },
+  {
+    "name": "unlock",
+    "description": "destranca o canal atual",
+    "syntax": "/unlock",
+    "examples": ["/unlock"]
+  },
+  {
+    "name": "unlockall",
+    "description": "destranca todos canais",
+    "syntax": "/unlockall",
+    "examples": ["/unlockall"]
+  },
+  {
+    "name": "urlscan",
+    "description": "analisa uma url",
+    "syntax": "/urlscan <url>",
+    "examples": ["/urlscan https://site.com"]
+  },
+  {
+    "name": "userinfo",
+    "description": "mostra info do user",
+    "syntax": "/userinfo <@user>",
+    "examples": ["/userinfo @eu"]
+  },
+  {
+    "name": "verificacao",
+    "description": "ativa verificação de membros",
+    "syntax": "/verificacao",
+    "examples": ["/verificacao"]
+  },
+  {
+    "name": "voodo",
+    "description": "lança maldição em alguém (zoeira)",
+    "syntax": "/voodo <@user>",
+    "examples": ["/voodo @inimigo"]
+  },
+  {
+    "name": "whois",
+    "description": "pega info completa do user",
+    "syntax": "/whois <@user>",
+    "examples": ["/whois @menino"]
+  }
+]

